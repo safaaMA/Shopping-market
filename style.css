@@ -1,0 +1,419 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     font-family: 'Changa', sans-serif;
+
+ }
+
+ .location {
+     background: whitesmoke;
+     text-align: end;
+     padding: 0 15px;
+     font-size: 10px;
+     display: flex;
+     align-items: center;
+     flex-direction: row-reverse;
+ }
+
+ .location span {
+     margin: 0 7px;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+ }
+
+ .login {
+     margin: 0 11px 0 0;
+     font-size: 15px;
+ }
+
+ .login a {
+     color: black;
+ }
+
+ .Logotitle {
+     display: flex;
+     justify-content: flex-start;
+     font-family: 'Kanit', sans-serif;
+ }
+
+ .logoimg {
+     width: 34px;
+     margin: 0px 10px 0 0;
+ }
+
+ .search {
+     width: 70%;
+ }
+
+ input[type="search"] {
+     width: 97%;
+     border-radius: 14px;
+     border: 1px solid #00000021;
+     background: aliceblue;
+     text-align: end;
+ }
+
+ ul {
+     display: flex;
+     width: 29%;
+     flex-direction: row-reverse;
+     margin: 0 6px;
+ }
+
+ li {
+     display: block;
+     margin: 0px 13px;
+ }
+
+ li a {
+     color: black;
+     font-size: 14px;
+ }
+
+ .Search-Login {
+     width: 38%;
+     display: flex;
+     align-items: center;
+ }
+
+ .iconCart {
+     cursor: pointer;
+ }
+
+ .logo {
+     margin: 0px 0px 0px 18px;
+     width: 57%;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ .containerCart {
+     text-align: center;
+     font-size: 10px;
+     border: 1px solid;
+     margin: 25px 0px;
+ }
+
+ .contints {
+     text-align: -webkit-right;
+ }
+
+ /* ---------------الواجهه الرئيسيه --------------- */
+ .hero {
+     text-align: center;
+     width: 50%;
+     margin: 78px auto 10px;
+ }
+
+ .HeroProdect {
+     margin: 0px 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .contentPhoto {
+     width: 143px;
+     background: aliceblue;
+     padding: 12px;
+     border-radius: 14px;
+     box-shadow: 1px 1px #00000012;
+     margin: 10px;
+ }
+
+ .second {
+     padding: 32px 0px 0 0;
+ }
+
+ .stor {
+     margin: 11px 0px;
+ }
+
+ .stor a {
+     background: aliceblue;
+     padding: 1px 18px;
+     border-radius: 10px;
+     color: black;
+ }
+
+ /* -----------------------الاكثر مبيعا------------------------ */
+ .Topsction {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 76px 0px 0px 0px;
+     flex-direction: row-reverse;
+ }
+
+ .techno {
+     display: flex;
+     align-items: center;
+     background: aliceblue;
+     width: 50%;
+     height: 277px;
+     overflow: hidden;
+     border-radius: 14px;
+     margin: 0 12px;
+ }
+
+ .TechnoImage {
+     width: 494px;
+     padding: 0px 0px 134px 0px;
+ }
+
+ .TechnoText {
+     width: 56%;
+     text-align: end;
+ }
+
+ .TechnoText p {
+     color: #00000061;
+     margin: 0px 0px 11px 0px;
+ }
+
+ .TechnoText a {
+     border: 1px solid #00000045;
+     padding: 0px 13px;
+     border-radius: 7px;
+     font-size: 15px;
+     color: black;
+ }
+
+ .techno.technoTow {
+     width: 30%;
+ }
+
+ .TechnoImage.TechnoImageTow {
+     padding: 53px 0px 0px 0;
+     transform: rotate(279deg);
+ }
+
+ .TechnoText.TechnoTextTow {
+     font-size: 14px;
+ }
+
+ .DownSection.Topsction {
+     display: flex;
+     flex-direction: row;
+     margin: 15px 0px;
+ }
+
+ .TechnoImage.TechnoImageDown {
+     padding: 0;
+ }
+
+ /* ---------properties section------------------ */
+ .Title-prodoct,
+ .filterTitle {
+     text-align: end;
+     margin: 67px 36px 5px 36px;
+ }
+
+ .filterTitle {
+     margin-top: 0;
+ }
+
+ .filterTitle h3 {
+     color: #00000087;
+ }
+
+ ul.filterUl {
+     width: 98.5%;
+     margin: 13px 0px;
+ }
+
+ li.filterli {
+     background: aliceblue;
+     padding: 0px 18px;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: .5s;
+ }
+
+ .filterli:hover {
+     background-color: rgb(0, 136, 255);
+     color: #fff;
+ }
+
+ .filterli:hover a {
+     color: #fff;
+ }
+
+ .Group-prodocts {
+     display: flex;
+     flex-wrap: wrap;
+     width: 98%;
+     margin: 45px auto 13px;
+ }
+
+ .Card-Pro {
+     background: aliceblue;
+     width: 238px;
+     border-radius: 14px;
+     padding: 20px 0px;
+     margin: 10px 12px;
+ }
+
+ .imagePro {
+     width: 200px;
+     text-align: center;
+     padding: 0 19px;
+ }
+
+ .Info-Pro {
+     text-align: end;
+     margin: 0 14px;
+ }
+
+ .detils-Pro p {
+     font-size: 14px;
+     color: #000000ad;
+     font-family: revert;
+     margin: 0px 0px 5px 0px;
+ }
+
+ .detils-Pro a {
+     color: black;
+     border: 1px solid #00000014;
+     padding: 1px 10px;
+     border-radius: 6px;
+ }
+
+ .btn-pro {
+     display: flex;
+     font-size: 16px;
+     flex-direction: row-reverse;
+     align-items: center;
+ }
+
+ .cart-pro {
+     border: 1px solid #0000002e;
+     padding: 1px 9px;
+     margin: 0 9px;
+     border-radius: 6px;
+     transition: .8s;
+     cursor: pointer;
+ }
+
+ .cart-pro:hover {
+     background-color: black;
+ }
+
+ .cart-pro:hover a {
+     color: #fff;
+ }
+
+ .cart-pro a {
+     color: black;
+ }
+
+ .NumberofBage {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ul.GroubNum {
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+ }
+
+ li.Num {
+     background: aliceblue;
+     padding: 0px 15px;
+     margin: 0 4px;
+     transition: .8s;
+     cursor: pointer;
+ }
+
+ .Num:hover {
+     background-color: black;
+ }
+
+ .Num:hover a {
+     color: #fff;
+ }
+
+ /* ------------------Specific--------------------- */
+ .Specific-Prodocts {
+     background: aliceblue;
+     width: 95.5%;
+     margin: 55px auto;
+     border-radius: 14px;
+ }
+
+ .Title-Spe {
+     text-align: end;
+     padding: 19px;
+     font-size: 12px;
+ }
+
+ .Container-Spe {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ /* ---------------Footer----------------- */
+
+ .footer {
+     background: aliceblue;
+     text-align: center;
+     font-size: 13px;
+     padding: 16px 15px 0px 0px;
+ }
+
+ .leftList {
+     margin: 0px 53px;
+ }
+
+ ul.footerUl {
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     font-size: 21px;
+     margin: 5px 0px;
+ }
+
+ .listFooter {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ ul.list {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     width: 100%;
+     margin: 0;
+ }
+
+ .list a {
+     color: #000000a6;
+ }
+
+ .reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+    direction: rtl;
+  }
+  
